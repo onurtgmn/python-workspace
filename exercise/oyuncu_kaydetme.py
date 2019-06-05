@@ -1,0 +1,10 @@
+print ("Player saving program")
+name=raw_input ("Enter your name:")
+surname=raw_input("Enter your surname:")
+team =raw_input("Enter your team:")
+info =[name,surname,team]
+print ("Data were saving...") 
+print ("Player name : "+ info[0])
+print ("Player surname : " + info [1])
+print ("Team of player : "+info [2])
+print ("Data were saved...")
